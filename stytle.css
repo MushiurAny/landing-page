@@ -1,0 +1,399 @@
+*{
+  margin: 0;
+}
+header{
+  background-color: black;
+  color: white;
+}
+.navbar{
+  width: 90%;
+  margin: auto;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.logo{
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button{
+  
+  background-color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  transform: .10s;
+}
+.button:hover{
+ color: white;
+ background: transparent;
+}
+
+.nav-list{
+  display: flex;
+   align-items: center;
+   gap: 50px;
+   font-family: Helvetica;
+   font-size: 18px;
+   list-style: none;
+   
+   
+ 
+}
+
+.banner-section{
+  background-image: url('/theme.jpg');
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  color: white;
+  
+
+}
+.banner-content{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.banner-icon{
+ display: grid;
+ gap: 10px;
+}
+.banner-icon a{
+ background-color: white;
+ padding: 5px;
+ border-radius: 50%;
+ font-size: 25px;
+ color: blue;
+
+}
+
+.banner-right-content h2{
+ font-size: 50pt;
+}
+
+.banner-right-content p{
+ font: 10pt;
+ width: 70%;
+}
+
+.banner-right-content button{
+ padding: 10px 20px;
+ margin-top: 20px;
+ display: flex;
+ gap: 10px;
+ border-radius: -10px;
+}
+button:hover{
+ color: white;
+ background: transparent;
+}
+
+.learn-with-section{
+ width: 90%;
+ margin: 50px auto;
+}
+
+
+.learn-with-section h2{
+ text-align: center;
+ 
+
+}
+.learn-content-card{
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 20px;
+}
+.card {
+ text-align: center;
+ background-color: #313131;
+ color: white;
+ padding: 40px 10px;
+ border-radius: 7px;
+ position: relative;
+}
+.card h3{
+ font-size: 25pt;
+}
+
+.learn-icon{
+ font-size: 20pt;
+ background-color: white;
+ border: 10px solid #313131;
+ border-radius: 50px;
+ padding: 8px;
+ color: #2e2e2e;
+ width: fit-content;
+ position: absolute;
+ top: -30px;
+ left: 40%;
+}
+
+
+.teamSection{
+ width: 90%;
+ margin: 50px auto;
+}
+
+.serviceItems{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content: center;
+}
+.singleItem{
+  margin: 10px;
+  text-align: center;
+  background: #313131;
+  color: white;
+  padding: 20px ;
+  border-radius: 10px;
+  position: relative;
+}
+
+.serviceItem{
+  margin: 10px;
+  text-align: center;
+  background: #353434;
+  color: white;
+  padding: 25px;
+  border-radius: 5px;
+  position: relative;
+
+}
+.serviceIcon{
+  margin-bottom: 5px;
+  display: inline-block;
+  
+}
+
+
+.singleItem .serviceIcon i {
+  height: 50px;
+  width: 50px;
+  background: #141414;
+  line-height: 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 50%;
+  border-color: #313131;
+  position: absolute;
+  top: -43px;
+  left: 40%;
+}
+
+.singleItem h3{
+  margin: 5px 0;
+  font-family: Helvetica;
+  font-size: 23px;
+}
+
+.singleItem p{
+  margin: auto;
+  font-family: arial;
+  font-size: 15px;
+}
+
+
+
+.teamSection{
+  padding: 30px 0;
+  
+
+}
+
+.teamContent{
+  width: 90%;
+  margin: auto;
+  
+}
+
+.teamTittle{
+  text-align: center;
+}
+
+.teamTittle h2{
+  margin-bottom: 20px;
+  font-family: Helvetica;
+  text-align: center;
+  font-size: 35px;
+
+}
+
+.teamMembers{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  text-align: center;
+}
+.teamMembers img{
+ border-radius: 100%;
+}
+
+.member{
+  text-align: center;
+  margin: 15px 10px;
+  
+
+}
+
+.member img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  
+ 
+
+}
+
+
+
+.member h4{
+  margin-bottom: 5px;
+  margin-top: 8px;
+  font-family: Helvetica;
+  font-size: 18px;
+}
+
+.member p{
+  font-family: Helvetica;
+  font-size: 15px;
+}
+
+
+
+.footer{
+  background: #2e2e2e;
+  color: white;
+  padding: 50px 0;
+}
+
+.footerContent{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer ul{
+  list-style: none;
+  padding: 0;
+}
+.footerLogo{
+  width: 33.33%;
+  height: auto;
+  color: white;
+  font-size: 35px;
+ 
+}
+
+.footerLogo h2{
+  font-size: 31px;
+  margin-bottom: 11px;
+}
+.footerLogo h2 a{
+  font-size: 33px;
+  color: white;
+  margin: 2px;
+  font-family: Helvetica;
+  text-decoration: none;
+  
+}
+.footerLogo p {
+  flex: 1;
+  margin-right: 20px;
+  line-height: 21px;
+  font-family: Helvetica;
+  font-size: 14px;
+}
+
+.footerLogo ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.footerLogo ul li span i{
+
+  margin-right: 0;
+  color: white;
+}
+.footerMenu{
+  width: 33.33%;
+}
+
+.footerMenu h3{
+  margin-bottom: 18px;
+  font-family: Helvetica;
+
+}
+
+.footerMenu ul li {
+  margin-right: 20px;
+  
+
+ 
+}
+
+.footerMenu ul li:last-child{
+  margin-right: 0;
+}
+
+.footerMenu ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 15px;
+  
+
+  
+}
+
+.footerSubscribtion{
+flex: 1;
+
+}
+
+
+.footerSubscribtion h3{
+  margin-bottom: 11px;
+  font-family: Helvetica;
+  font-size: 20px;
+
+}
+
+
+.footerSubscribtion form{
+  display: flex;
+
+}
+
+.footerSubscribtion input[typy="email"] {
+ padding: 10px;
+ width: 200px;
+ margin-right: 10px;
+}
+
+.input[type="button"] {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #333;
+  border: none;
+  cursor: pointer;
+  font-family: Helvetica;
+  font-size: 15px bold;
+}
+
